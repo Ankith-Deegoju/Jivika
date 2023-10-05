@@ -1,6 +1,6 @@
 // JavaScript for hero section
 const heroContent = document.querySelector('.hero-content');
-const heroImage = document.querySelector('.hero-image');
+const heroImage = document.querySelector('.heroimage');
 const exploreButton = document.querySelector('.explore-button');
 const heroSubtitle = document.querySelector('.hero-subtitle');
 // Text animation function
