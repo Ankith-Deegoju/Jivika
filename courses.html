@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Catalog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <img class="navbar-logo" src="Jivaka.png"  alt="Logo">
+            <ul class="navbar-nav" id="navbarNav">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="courses.html">Courses</a></li>
+              <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSerjZARbduZ9o_R7M6f2QBM2RFGrRhBm-kGVZBmQk8OJ126cw/viewform?usp=sf_link">Register</a></li>
+              <li><a href="signup.php">Sign up / Login</a></li>
+            </ul>
+        
+            <!-- Mobile overlay and popup
+            <div class="navbar-overlay" onclick="toggleMenu()"></div>
+            <div class="navbar-popup">
+              <ul class="navbar-popup-nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSerjZARbduZ9o_R7M6f2QBM2RFGrRhBm-kGVZBmQk8OJ126cw/viewform?usp=sf_link">Register</a></li>
+                <li><a href="signup.php">Sign up / Login</a></li>
+              </ul>
+            </div> -->
+          </nav>
+        
+         <!-- JavaScript to toggle the menu -->
+         <script>
+            function toggleMenu() {
+             var navbarNav = document.getElementById("navbarNav");
+             var navbarOverlay = document.querySelector(".navbar-overlay");
+             var navbarPopup = document.querySelector(".navbar-popup");
+       
+             navbarNav.classList.toggle("show");
+             navbarOverlay.classList.toggle("show");
+             navbarPopup.classList.toggle("show");
+           }
+            </script> 
+    </header>
+
+    <div class="courses-card">
+        <div class="courses-image">
+            <img src="https://i.pinimg.com/550x/10/37/62/103762f63db0cc46bf4bd17d2a9d18eb.jpg" alt="Course Image">
+        </div>
+        <div class="courses-details">
+            <h2 class="courses-title">Ayurvedic Healing Therapies</h2>
+            <p class="benefit-description" style="font-size: medium;">Learn the art of Ayurvedic massage and body therapies, including Abhyanga and Shirodhara, for relaxation and rejuvenation</p>
+            <p class="service-description" style="text-align: right;"><strong>Course Details:  </strong>Duration: 12 weeks | Instructor: Massage Therapist Anita Patel </p>
+            <hr>
+            <button class="cta-button-1">Buy Now</button>
+        </div>
+    </div>
+
+
+    <div class="courses-card">
+        <div class="courses-image">
+            <img src="https://media.istockphoto.com/id/521262744/photo/spices-and-nuts-at-wooden-table.jpg?s=612x612&w=0&k=20&c=HvhJn_I7S8qwkW0gueDFeCYbSFgLkPUAsgbQsnnpuV4=" alt="Course Image">
+        </div>
+        <div class="courses-details">
+            <h2 class="courses-title">Ayurvedic Nutrition & Cooking</h2>
+            <p class="benefit-description " style="font-size: medium;">Discover Ayurvedic dietary guidelines and cooking techniques to promote health and well-being through food</p>
+            <p class="service-description" style="text-align: right;"><strong>Course Details:</strong> Duration: 10 weeks | Instructor: Chef Meera Gupta</p>
+            <hr>
+            <button class="cta-button-1">Buy Now</button>
+        </div>
+    </div>
+
+    <div class="courses-card">
+        <div class="courses-image">
+            <img src="https://media.istockphoto.com/id/1192284372/photo/composition-of-natural-alternative-medicine-with-capsules-essence-and-plants.jpg?s=612x612&w=0&k=20&c=AOZISN4jnN4hGm59us3hyR0BMymkyxkzTPM8CxsBWZI=" alt="Course Image">
+        </div>
+        <div class="courses-details">
+            <h2 class="courses-title">Ayurvedic Herbal Remedies</h2>
+            <p class="benefit-description" style="font-size: medium;">The world of Ayurvedic herbs and their therapeutic uses, learning to prepare herbal remedies for common ailments.</p>
+
+            <p class="service-description" style="text-align: right;"><strong>Course Details: </strong>Duration: 8 weeks | Instructor: Dr. Rajeev Kapoor</p>
+            <hr >
+            <button class="cta-button-1">Buy Now</button>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-top">
+          <div class="contact-info">
+            <div class="contact-column cta-frame-icon">
+              <div class="contact-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <p class="contact-label">Email</p>
+              <p class="contact-details"><a href="mailto:ankith1703@gmail.com">example@example.com</a></p>
+            </div>
+            <div class="contact-column cta-frame-icon">
+              <div class="contact-icon">
+              <a href="">  <i class="fab fa-whatsapp"  style="color: #e9e9e9;"></i></a>
+              </div>
+              <p class="contact-label">WhatsApp</p>
+              <p class="contact-details"><a href="https://chat.whatsapp.com/C5jMPwaZuKI1pSEyH2hkiD">1234567890 , 123567890</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="footer-middle">
+          <div class="footer-links">
+            <div class="footer-row">
+                <h4 class="footer-heading">Links</h4>
+                <ul>
+                  <li><a href="/">Home</a></li>
+                  <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSerjZARbduZ9o_R7M6f2QBM2RFGrRhBm-kGVZBmQk8OJ126cw/viewform?usp=sf_link">Register</a></li>
+                  <!-- <li><a href="#">Achievements</a></li> -->
+                </ul>
+              </div>
+                <div class="footer-row">
+              <h4 class="footer-heading">Services</h4>
+              <ul>
+                <li><a href="#">Live Classes</a></li>
+                <li><a href="#">Challenges</a></li>
+              </ul>
+            </div>
+            <div class="footer-row">
+              <h4 class="footer-heading">About</h4>
+              <ul>
+                <li><a href="#">Our Team</a></li>
+                <li><a href="#">Achievements</a></li>
+                <!-- <li><a href="#">Achievements</a></li> -->
+              </ul>
+            </div>
+            <div class="footer-row">
+              <h4 class="footer-heading">Resources</h4>
+              <ul>
+                <li><a href="#">Learn Basics</a></li>
+                <li><a href="#">Blogs</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <div class="right-section">
+            <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>  
+          </div>
+          <!-- <div class="bottom-section"> -->
+            <div class="footer-address">
+              <address>Address :-Hno:-5-75/2 Panchavati Colony, City:-Medipelly, Ghatkesar Pin no:- 500098, Hyderabad, Telangana</address> 
+            </div>
+        
+            <div class="footer-links" style="margin-left: 5%;">
+              <a href="#">Privacy Policy</a>
+              <span class="separator">|</span>
+              <span>&copy; 2023 Your Company. All rights reserved.</span>
+            </div>
+          
+         </div>
+        </div>
+        </div>
+      </footer>
+      
+      <script src="script.js"></script>
+</body>
+</html>
