@@ -335,7 +335,7 @@ h1.hero-title
     padding-top: 0%;
 }
 
-.heros-image {
+.heroes-image {
     background-image: url('hero-image.jpg'); /* Your hero image URL */
     background-size: cover;
     background-position: center;
